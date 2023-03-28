@@ -1,0 +1,8 @@
+- name: Skip tag sample
+  hosts: all
+  tasks:
+    - name: Hello Message
+      debug:
+        msg: "Hello World!"
+      skip_tags: hello_everyone
+
