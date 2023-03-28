@@ -4,5 +4,5 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
-      skip_tags: hello_everyone, skip_tag_2
+      tags: hello_everyone, skip_tag_2
 
