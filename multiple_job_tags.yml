@@ -1,8 +1,0 @@
-- name: Job tags sample
-  hosts: all
-  tasks:
-    - name: Hello Message
-      debug:
-        msg: "Hello World!"
-      tags: hello_everyone, job_tag_2
-

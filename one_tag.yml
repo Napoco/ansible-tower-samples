@@ -4,5 +4,5 @@
     - name: Hello Message
       debug:
         msg: "Hello World!"
-      tags: hello_everyone
+      tags: hello-tag
 

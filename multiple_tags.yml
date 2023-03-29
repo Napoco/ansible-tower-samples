@@ -1,8 +1,8 @@
-- name: Skip tags sample
+- name: Job tags sample
   hosts: all
   tasks:
     - name: Hello Message
       debug:
         msg: "Hello World!"
-      tags: hello_everyone, skip_tag_2
+      tags: tag-1, tag-2
 
